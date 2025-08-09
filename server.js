@@ -30,7 +30,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/ride', {
 .catch(err => console.error('MongoDB connection error:', err));
 
 // Import routes
-const tripRoutes = require('./routes/tripRoutes');
+const tripRoutes = require('./routes/triproutes');
 const userRoutes = require('./routes/userRoutes');
 const bookingRoutes = require('./routes/bookingRoutes');
 
